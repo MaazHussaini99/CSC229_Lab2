@@ -14,6 +14,34 @@ import java.time.*;
  * @author maazh
  */
 public class TestClass {
+    
+    /*This method is straight forward to understand but yeilds 
+    O(n^2) complexity because of the use of Nested Loops*/
+    /*int pairwiseProduct(int [] arr){
+        
+        int n = arr.length;
+        
+        
+        if (n < 2) {
+            System.out.println("Less than two elements in the array.");
+            return 0;
+        }
+        
+        int num1 = arr[0], num2 = arr[1];
+        
+        for (int i = 0; i < n-1; i++) {
+            for (int j = 1; j < n; j++) {
+                if(arr[i] * arr[j] > num1 *num2){
+                    num1 = arr[i];
+                    num2 = arr[j];
+                }
+            }
+        }
+        int product = num1 * num2;
+        return product;
+    }*/
+    
+    
 
     
     /*The time for this algorithm is O(nLog n) since the built 
